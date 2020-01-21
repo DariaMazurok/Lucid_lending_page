@@ -168,6 +168,7 @@ h3 {
 
 .view {
     border: 1px #4d4d52 solid;
+    display: inline-block;
 }
 
 .view:hover {
