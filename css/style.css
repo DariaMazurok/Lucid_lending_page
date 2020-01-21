@@ -97,6 +97,16 @@ header nav ul li:hover:after, header nav ul li:hover:before {
     transition: 0.5s;
 }
 
+header nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.view:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .left {
     float: left;
 }
@@ -151,11 +161,22 @@ h3 {
     border-radius: 3px;
 }
 
+.banner_information .container a.view:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .view {
     border: 1px #4d4d52 solid;
 }
 
-.view:hover, .activ {
+.view:hover {
+    background-color: #008ed6;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.activ {
     background-color: #008ed6;
 }
 
@@ -602,6 +623,11 @@ footer .social a:hover {
     margin-bottom: 90px;
 }
 
+.use a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .about {
     text-align: center;
 }
@@ -649,11 +675,11 @@ footer .social a:hover {
     border-radius: 3px;
 }
 
-.about .flex {
+.about .correct_building {
     float: left;
 }
 
-button {
+.about .container button {
     height: 50px;
     width: 160px;
     background-color: #008ed6;
@@ -673,20 +699,17 @@ button {
     clear: both;
 }
 
-div.form {
+.about .container div.form {
     position: relative;
     top: 70px;
+    z-index: 1;
 }
 
 .about {
     position: relative;
 }
 
-.absolute {
-    position: absolute;
-}
-
-footer {
-    position: relative;
-    margin-top: 370px;
+.about .container button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
